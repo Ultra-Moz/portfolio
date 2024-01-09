@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&family=Poppins:wght@600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npm body {
+  @apply font-poppins;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 80px;
+}
+
+@keyframes rotateAnimation {
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+.morph-animation {
+  animation: morph 8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+.rotate {
+  animation: rotateAnimation 9s infinite linear;
+}
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-center w-full;
+  }
+  .contain {
+    @apply w-[90%] max-w-[1000px];
+  }
+}
+.tech-img:hover {
+  translate: 0px -20px !important;
+}
+.tech-img {
+  transition: translate 300ms;
+}
