@@ -1,39 +1,20 @@
 [
     {
-        "img" : "moz-clone.png",
-        "name" : "MOZ-clone",
-        "date" : "(JUNE 2022)",
-        "desc" : "SEO software to help you increase traffic, rankings, and visibility in search results. Powered by our industry-leading SEO metrics — including Page Authority and Domain Authority — Moz Pro gives you the highest quality data to do your job. ",
-        "techs" : ["HTML5", "CSS3"],
-        "gitLink" : "https://github.com/Ultra-Moz/MOZ-Clone",
-        "websiteLink" : "https://moz-clone-rose.vercel.app/"
+        "img" : "ons-gold.jpeg",
+        "name" : "ONS Gold",
+        "date" : "(DEC 2023)",
+        "desc" : "Decentralised naming for wallets, websites, & more. ONS will be the most widely integrated blockchain naming standard. ",
+        "techs" : ["React", "Tailwind"],
+        "gitLink" : "https://github.com/Ultra-Moz/ons-gold",
+        "websiteLink" : " ons-gold-six.vercel.app "
     },
         {
         "img" : "moz-clone.png",
-        "name" : "MOZ-clone",
-        "date" : "(JUNE 2022)",
-        "desc" : "SEO software to help you increase traffic, rankings, and visibility in search results. Powered by our industry-leading SEO metrics — including Page Authority and Domain Authority — Moz Pro gives you the highest quality data to do your job. ",
-        "techs" : ["HTML5", "CSS3"],
-        "gitLink" : "https://github.com/Ultra-Moz/MOZ-Clone",
-        "websiteLink" : "https://moz-clone-rose.vercel.app/"
-    },
-        {
-        "img" : "moz-clone.png",
-        "name" : "MOZ-clone",
-        "date" : "(JUNE 2022)",
-        "desc" : "SEO software to help you increase traffic, rankings, and visibility in search results. Powered by our industry-leading SEO metrics — including Page Authority and Domain Authority — Moz Pro gives you the highest quality data to do your job. ",
-        "techs" : ["HTML5", "CSS3"],
-        "gitLink" : "https://github.com/Ultra-Moz/MOZ-Clone",
-        "websiteLink" : "https://moz-clone-rose.vercel.app/"
-    },
-       {
-        "img" : "moz-clone.png",
-        "name" : "MOZ-clone",
+        "name" : "Moz Clone",
         "date" : "(JUNE 2022)",
         "desc" : "SEO software to help you increase traffic, rankings, and visibility in search results. Powered by our industry-leading SEO metrics — including Page Authority and Domain Authority — Moz Pro gives you the highest quality data to do your job. ",
         "techs" : ["HTML5", "CSS3"],
         "gitLink" : "https://github.com/Ultra-Moz/MOZ-Clone",
         "websiteLink" : "https://moz-clone-rose.vercel.app/"
     }
-    
 ]
