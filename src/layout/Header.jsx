@@ -44,7 +44,9 @@ const Header = () => {
         }}
         className="flex justify-between min-h-[80px] px-[30px] bg-white z-20 text-darkGrey items-center shadow-[0_0_10px_rgba(0,0,0,0.09)] fixed w-full top-0"
       >
-        <h3 className="text-[22px]">moiz.dev</h3>
+        <a href="/" className="text-[22px]">
+          moiz.dev
+        </a>
         <ul className="gap-[2rem] font-semibold hidden lg:flex">
           {links.map((link, index) => (
             <a

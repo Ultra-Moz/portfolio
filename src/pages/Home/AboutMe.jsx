@@ -48,7 +48,7 @@ const AboutMe = () => {
 
   return (
     <div
-      className="wrapper py-[50px] md:py-[80px] lg:py-[130px] px-3"
+      className="wrapper py-[50px] md:py-[80px] lg:py-[130px] px-3 overflow-x-hidden"
       id="about"
     >
       <div className="contain flex flex-col lg:flex-row items-center lg:items-start about">

@@ -1,14 +1,56 @@
-import React from "react";
+import React, { useRef } from "react";
 import data from "./data.json";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Projects = () => {
+  const portText = useRef(null);
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  useGSAP(() => {
+    const mainCard = document.querySelectorAll(".main-card");
+
+    mainCard.forEach((card, index) => {
+      gsap.fromTo(
+        card,
+        { y: 100, opacity: 0, scale: 0.95 },
+        {
+          y: 0,
+          scale: 1,
+          opacity: 1,
+          duration: 0.69,
+          scrollTrigger: {
+            trigger: card,
+            start: "-30 bottom",
+          },
+        }
+      );
+    });
+
+    gsap.fromTo(
+      portText.current,
+      { x: -100, opacity: 0 },
+      {
+        x: 0,
+        opacity: 1,
+
+        scrollTrigger: { trigger: portText.current },
+      }
+    );
+  }, []);
+
   return (
     <div
       className="wrapper bg-[#f9f9f9] py-[80px] md:py-[120px] lg:py-[180px]"
       id="projects"
     >
       <div className="contain">
-        <div className="flex flex-col gap-2 text-center md:text-left">
+        <div
+          className="flex flex-col gap-2 text-center md:text-left"
+          ref={portText}
+        >
           <h4 className="text-lightBlue text-[20px] font-bold">PORTFOLIO</h4>
           <p className="text-darkGrey text-[24px] font-bold">
             Each project is a unique piece of development 🧩
@@ -21,7 +63,7 @@ const Projects = () => {
                 (i + 1) % 2 === 0
                   ? "flex-col lg:flex-row-reverse"
                   : "flex-col lg:flex-row"
-              } justify-between shadow-[0_0_10px_rgba(0,0,0,.1)] p-6 md:p-12 lg:p-8 rounded-3xl items-start`}
+              } main-card justify-between shadow-[0_0_10px_rgba(0,0,0,.1)] p-6 md:p-12 lg:p-8 rounded-3xl items-start`}
               key={i}
             >
               <div className="w-[100%] rounded-xl overflow-hidden max-h-[320px] mb-5">
