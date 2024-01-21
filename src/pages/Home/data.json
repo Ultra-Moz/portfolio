@@ -6,7 +6,7 @@
         "desc" : "Decentralised naming for wallets, websites, & more. ONS will be the most widely integrated blockchain naming standard. ",
         "techs" : ["React", "Tailwind"],
         "gitLink" : "https://github.com/Ultra-Moz/ons-gold",
-        "websiteLink" : " ons-gold-six.vercel.app "
+        "websiteLink" : "https://ons-gold-six.vercel.app/"
     },
         {
         "img" : "moz-clone.png",
