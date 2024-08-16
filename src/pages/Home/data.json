@@ -1,5 +1,14 @@
 [
     {
+        "img" : "kdeshmukh.jpeg",
+        "name" : "Karthik Deshmukh Portfolio",
+        "date" : "(AUG 2024)",
+        "desc" : "The website is a personal portfolio showcasing Karthik Deshmukh's skills, projects, and experience as a Product designer, with a clean and modern design.",
+        "techs" : ["React", "Tailwind"],
+        "gitLink" : "https://github.com/Ultra-Moz/yonko",
+        "websiteLink" : "https://karthik-deshmukh.vercel.app/"
+    },
+    {
         "img" : "ons-gold.jpeg",
         "name" : "ONS Gold",
         "date" : "(DEC 2023)",
