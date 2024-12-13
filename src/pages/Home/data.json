@@ -1,29 +1,47 @@
 [
-    {
-        "img" : "kdeshmukh.jpeg",
-        "name" : "Karthik Deshmukh Portfolio",
-        "date" : "(AUG 2024)",
-        "desc" : "The website is a personal portfolio showcasing Karthik Deshmukh's skills, projects, and experience as a Product designer, with a clean and modern design.",
-        "techs" : ["React", "Tailwind"],
-        "gitLink" : "https://github.com/Ultra-Moz/yonko",
-        "websiteLink" : "https://karthik-deshmukh.vercel.app/"
-    },
-    {
-        "img" : "ons-gold.jpeg",
-        "name" : "ONS Gold",
-        "date" : "(DEC 2023)",
-        "desc" : "Decentralised naming for wallets, websites, & more. ONS will be the most widely integrated blockchain naming standard. ",
-        "techs" : ["React", "Tailwind"],
-        "gitLink" : "https://github.com/Ultra-Moz/ons-gold",
-        "websiteLink" : "https://ons-gold-six.vercel.app/"
-    },
-        {
-        "img" : "moz-clone.png",
-        "name" : "Moz Clone",
-        "date" : "(JUNE 2022)",
-        "desc" : "SEO software to help you increase traffic, rankings, and visibility in search results. Powered by our industry-leading SEO metrics — including Page Authority and Domain Authority — Moz Pro gives you the highest quality data to do your job. ",
-        "techs" : ["HTML5", "CSS3"],
-        "gitLink" : "https://github.com/Ultra-Moz/MOZ-Clone",
-        "websiteLink" : "https://moz-clone-rose.vercel.app/"
-    }
+  {
+    "img": "flymasters.jpeg",
+    "name": "Flymasters",
+    "date": "(AUG 2024 - NOV 2024)",
+    "desc": "Flymasters helps students find the best colleges and courses for their master's journey. The site offers access to over 800 universities and more than 80,321 courses worldwide, along with visa assistance and guidance. It aims to simplify the process of studying abroad, offering support in over 27 countries and ensuring a successful application with their extensive resources and expertise.",
+    "techs": ["React", "Tailwind"],
+    "gitLink": "https://github.com/ShibCode/flymasters",
+    "websiteLink": "https://flymasters.vercel.app/"
+  },
+  {
+    "img": "kdeshmukh.jpeg",
+    "name": "Karthik Deshmukh Portfolio",
+    "date": "(AUG 2024)",
+    "desc": "The website is a personal portfolio showcasing Karthik Deshmukh's skills, projects, and experience as a Product designer, with a clean and modern design.",
+    "techs": ["React", "Tailwind"],
+    "gitLink": "https://github.com/Ultra-Moz/yonko",
+    "websiteLink": "https://karthik-deshmukh.vercel.app/"
+  },
+  {
+    "img": "ons-gold.jpeg",
+    "name": "ONS Gold",
+    "date": "(JAN 2024)",
+    "desc": "Decentralised naming for wallets, websites, & more. ONS will be the most widely integrated blockchain naming standard. ",
+    "techs": ["React", "Tailwind"],
+    "gitLink": "https://github.com/Ultra-Moz/ons-gold",
+    "websiteLink": "https://ons-gold-six.vercel.app/"
+  },
+  {
+    "img": "periodic-table.jpeg",
+    "name": "Periodic Table",
+    "date": "(DEC 2023)",
+    "desc": "This periodic table website offers an interactive and comprehensive tool for exploring the elements. It provides detailed information on each element, including atomic number, mass, properties, and uses, making it an ideal resource for students and educators.",
+    "techs": ["React", "Tailwind"],
+    "gitLink": "https://github.com/ShibCode/periodic-table",
+    "websiteLink": "https://periodic-table-phi.vercel.app/"
+  },
+  {
+    "img": "moz-clone.png",
+    "name": "Moz Clone",
+    "date": "(JUNE 2022)",
+    "desc": "SEO software to help you increase traffic, rankings, and visibility in search results. Powered by our industry-leading SEO metrics — including Page Authority and Domain Authority — Moz Pro gives you the highest quality data to do your job. ",
+    "techs": ["HTML5", "CSS3"],
+    "gitLink": "https://github.com/Ultra-Moz/MOZ-Clone",
+    "websiteLink": "https://moz-clone-rose.vercel.app/"
+  }
 ]
